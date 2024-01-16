@@ -120,7 +120,7 @@ CREATE TABLE movies (
     title TEXT,
     year INTEGER,
     rating TEXT,
-    studio_id TEXT);
+    studio_id INTEGER);
 CREATE TABLE actors (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     actor_name TEXT);
